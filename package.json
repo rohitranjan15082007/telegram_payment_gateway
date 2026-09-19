@@ -1,0 +1,12 @@
+{
+  "name": "telegram-stars-shop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node server.mjs",
+    "set-webhook": "node setup-webhook.mjs",
+    "check": "node --check server.mjs && node --check config.mjs && node --check orders.mjs && node --check telegram.mjs && node --check setup-webhook.mjs"
+  }
+}

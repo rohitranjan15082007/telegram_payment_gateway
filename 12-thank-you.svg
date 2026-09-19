@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edit text and hex colours in this SVG. Canvas: 1080 x 1080 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <style>.charcoal{fill:#25252a}.blush{fill:#ffe3e0}.rose{fill:#ec8c8b}.white{fill:#fff}.small{font:700 23px Arial,sans-serif;letter-spacing:4px}.title{font:800 105px Arial,sans-serif;letter-spacing:-6px}.body{font:500 29px Arial,sans-serif}</style>
+  <rect class="blush" width="1080" height="1080"/><circle class="rose" cx="155" cy="162" r="139"/><circle class="charcoal" cx="935" cy="913" r="211"/><path class="white" d="M690 122c67-48 159-29 196 42 37-71 129-90 196-42 75 54 55 161-196 323C635 283 615 176 690 122z" transform="translate(-185 125) scale(.55)"/>
+  <text class="small charcoal" x="82" y="222">A LITTLE NOTE</text><text class="title charcoal" x="77" y="445">THANK</text><text class="title charcoal" x="77" y="557">YOU.</text><text class="body charcoal" x="82" y="673">We are so glad you are here.</text><text class="body charcoal" x="82" y="716">Add your personal message here.</text>
+  <rect class="charcoal" x="82" y="790" width="338" height="3"/><text class="small charcoal" x="82" y="865">WITH GRATITUDE,</text><text class="body charcoal" x="82" y="916">YOUR BRAND NAME</text>
+</svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edit text and hex colours in this SVG. Canvas: 1080 x 1080 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <style>.black{fill:#171717}.white{fill:#fff}.red{fill:#ff594c}.pink{fill:#ffc7c2}.small{font:700 23px Arial,sans-serif;letter-spacing:4px}.number{font:900 390px Arial,sans-serif;letter-spacing:-27px}.title{font:800 78px Arial,sans-serif;letter-spacing:-4px}.body{font:500 28px Arial,sans-serif}</style>
+  <rect class="black" width="1080" height="1080"/><circle class="red" cx="942" cy="137" r="220"/><circle class="pink" cx="95" cy="966" r="242"/><text class="small red" x="84" y="121">MARK YOUR CALENDAR</text><text class="number white" x="67" y="512">03</text>
+  <text class="title white" x="84" y="662">DAYS TO GO.</text><rect class="red" x="84" y="713" width="316" height="6"/><text class="body pink" x="84" y="782">YOUR EVENT OR LAUNCH NAME</text><text class="body pink" x="84" y="826">DATE · TIME · LOCATION</text><text class="small white" x="84" y="954">YOUR BRAND NAME  ·  @YOURHANDLE</text>
+</svg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edit text and hex colours in this SVG. Canvas: 1080 x 1080 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <style>.navy{fill:#172945}.blue{fill:#d7edff}.aqua{fill:#78ddd0}.small{font:700 24px Arial,sans-serif;letter-spacing:4px}.quote{font:700 75px Georgia,serif}.body{font:500 29px Arial,sans-serif}</style>
+  <rect class="blue" width="1080" height="1080"/><rect class="navy" x="57" y="57" width="966" height="966" rx="28"/><circle class="aqua" cx="168" cy="163" r="82"/><circle fill="#274264" cx="936" cy="909" r="168"/>
+  <text fill="#78ddd0" x="125" y="235" style="font:900 200px Georgia,serif">“</text><text class="quote" fill="#fff" x="125" y="419">PUT YOUR</text><text class="quote" fill="#fff" x="125" y="512">FAVOURITE</text><text class="quote" fill="#fff" x="125" y="605">QUOTE HERE.</text>
+  <rect class="aqua" x="125" y="694" width="132" height="7"/><text class="body" fill="#d7edff" x="125" y="770">— PERSON NAME OR SOURCE</text><text class="small" fill="#78ddd0" x="125" y="927">YOUR BRAND NAME</text>
+</svg>

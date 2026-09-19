@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edit text and hex colours in this SVG. Canvas: 1080 x 1080 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <style>.navy{fill:#17213d}.sky{fill:#b7dcff}.blue{fill:#5798ef}.white{fill:#fff}.small{font:700 23px Arial,sans-serif;letter-spacing:4px}.title{font:900 92px Arial,sans-serif;letter-spacing:-5px}.body{font:500 28px Arial,sans-serif}</style>
+  <rect class="sky" width="1080" height="1080"/><rect class="navy" x="54" y="53" width="972" height="974" rx="30"/><path class="blue" d="M54 765c152-229 327-232 465-88 126 131 312 108 507-41v391H54z"/><circle class="sky" cx="848" cy="266" r="169"/><circle class="blue" cx="848" cy="266" r="112"/>
+  <text class="small sky" x="112" y="151">YOUR BRAND PRESENTS</text><text class="title white" x="108" y="364">THE NEW</text><text class="title white" x="108" y="463">COLLECTION.</text><text class="body sky" x="112" y="547">A concise line about what makes it special.</text>
+  <rect class="sky" x="111" y="641" width="260" height="73" rx="36"/><text class="body navy" x="152" y="688">EXPLORE NOW</text><text class="small white" x="110" y="937">YOUR BRAND NAME  ·  @YOURHANDLE</text>
+</svg>

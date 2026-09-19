@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edit text and hex colours in this SVG. Canvas: 1080 x 1080 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <style>.blue{fill:#2638a8}.cream{fill:#fff5d8}.red{fill:#fa6859}.small{font:700 23px Arial,sans-serif;letter-spacing:4px}.title{font:900 128px Arial,sans-serif;letter-spacing:-8px}.body{font:500 29px Arial,sans-serif}</style>
+  <rect class="blue" width="1080" height="1080"/><rect class="cream" x="67" y="66" width="946" height="948" rx="28"/><path class="red" d="m745 96 31 69 75 8-56 51 15 74-65-37-66 37 16-74-56-51 75-8z"/><circle class="blue" cx="181" cy="861" r="188"/>
+  <text class="small blue" x="121" y="171">BREAKING NEWS</text><text class="title blue" x="113" y="398">BIG</text><text class="title blue" x="113" y="526">NEWS.</text><rect class="red" x="119" y="580" width="197" height="9"/>
+  <text class="body blue" x="119" y="673">Put your exciting announcement</text><text class="body blue" x="119" y="713">and key detail right here.</text><rect class="blue" x="119" y="791" width="292" height="75" rx="37"/><text class="body cream" x="157" y="839">LEARN MORE →</text><text class="small blue" x="119" y="950">YOUR BRAND NAME</text>
+</svg>

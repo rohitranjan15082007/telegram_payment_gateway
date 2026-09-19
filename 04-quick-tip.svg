@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edit text and hex colours in this SVG. Canvas: 1080 x 1080 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <style>.white{fill:#fff}.ink{fill:#152723}.green{fill:#c7f1ad}.mint{fill:#e9fff0}.small{font:700 24px Arial,sans-serif;letter-spacing:4px}.number{font:900 192px Arial,sans-serif;letter-spacing:-10px}.title{font:800 68px Arial,sans-serif;letter-spacing:-3px}.body{font:500 28px Arial,sans-serif}</style>
+  <rect class="mint" width="1080" height="1080"/><rect class="ink" x="0" y="0" width="1080" height="241"/><rect class="green" x="0" y="241" width="1080" height="17"/>
+  <text class="small green" x="75" y="103">SAVE THIS POST</text><text class="title white" x="75" y="185">ONE QUICK TIP</text><text class="number green" x="76" y="521">01</text>
+  <text class="title ink" x="78" y="648">WRITE YOUR TIP</text><text class="title ink" x="78" y="726">IN THIS SPACE.</text><text class="body ink" x="80" y="810">Use a supporting sentence to explain</text><text class="body ink" x="80" y="850">the idea in a helpful, clear way.</text>
+  <rect class="ink" x="77" y="921" width="925" height="2"/><text class="small ink" x="77" y="980">YOUR BRAND NAME  ·  @YOURHANDLE</text>
+</svg>

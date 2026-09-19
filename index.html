@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Telegram Stars checkout landing page." />
+    <title>Studio Shop · Telegram checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Studio Shop home"><span class="plane">➤</span><span>payflow<span class="brand-dot">.shop</span></span></a>
+        <span class="demo-chip"><i></i> Telegram Stars</span>
+      </header>
+
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">Secure Telegram checkout</p>
+          <h1>Buy without leaving Telegram.</h1>
+          <p class="lead">Open our bot to receive a secure invoice. Telegram confirms the payment, then the bot sends your digital purchase directly in chat.</p>
+          <div class="hero-actions">
+            <button class="primary-button" id="openTelegram" type="button" disabled>Connect your bot to enable checkout <span>→</span></button>
+            <a class="text-link" href="#how-it-works">How checkout works ↓</a>
+          </div>
+          <p class="launch-status" id="launchStatus" role="status">Checking shop configuration…</p>
+        </div>
+
+        <aside class="telegram-window" aria-label="Telegram invoice preview">
+          <div class="chat-header"><span class="bot-avatar">S</span><div><strong id="botName">Studio Shop</strong><small>bot</small></div><span class="more">•••</span></div>
+          <div class="chat-area">
+            <p class="chat-date">TODAY</p>
+            <div class="bot-message">
+              <p>Hey! Your digital purchase is ready.</p>
+              <div class="invoice-card">
+                <div class="invoice-art"><span>✦</span></div>
+                <div class="invoice-info"><strong id="invoiceTitle">Creative Starter Pack</strong><span id="invoiceDescription">12 editable templates</span><b id="invoicePrice">150 Stars</b></div>
+              </div>
+              <button class="pay-button chat-pay" id="chatPay" type="button" disabled>Open bot to pay</button>
+            </div>
+            <div class="typing"><span></span><span></span><span></span></div>
+          </div>
+          <div class="chat-input"><span>Message</span><b>➤</b></div>
+        </aside>
+      </section>
+
+      <section class="flow-section" id="how-it-works">
+        <div class="section-heading"><div><p class="eyebrow">The real payment sequence</p><h2>Four verified steps.</h2></div></div>
+        <ol class="flow-list">
+          <li class="flow-item active"><span class="step-number">01</span><div><h3>You open the bot</h3><p>This page uses a Telegram deep link. The bot receives a purchase request for the selected product.</p></div></li>
+          <li class="flow-item"><span class="step-number">02</span><div><h3>The bot sends an invoice</h3><p>The server creates a unique order and sends a Telegram Stars invoice with the product and price.</p></div></li>
+          <li class="flow-item"><span class="step-number">03</span><div><h3>Telegram completes checkout</h3><p>Telegram handles the Stars checkout. Your website and bot never receive card details.</p></div></li>
+          <li class="flow-item"><span class="step-number">04</span><div><h3>The purchase is delivered</h3><p>The server validates the payment update, stores its charge ID, then sends the configured file in chat.</p></div></li>
+        </ol>
+      </section>
+
+      <section class="learn-section">
+        <div class="learn-card"><div class="learn-icon gold">★</div><h3>Digital goods use Stars</h3><p>Digital products and services sold inside Telegram use Telegram Stars with the currency code <code>XTR</code>.</p></div>
+        <div class="learn-card"><div class="learn-icon teal">✓</div><h3>Payment is server-verified</h3><p>The bot does not deliver from the browser or a pre-checkout approval. It waits for Telegram’s successful-payment update.</p></div>
+        <div class="learn-card"><div class="learn-icon purple">⌁</div><h3>Orders are recorded</h3><p>The starter stores the order payload and Telegram payment charge ID locally so duplicate webhook delivery does not resend the item.</p></div>
+      </section>
+
+      <section class="notice" aria-label="Shop information"><span class="notice-icon">!</span><p><strong>Need help with an order?</strong> Send <code>/support</code> to the bot. Terms and refund information should be made available through <code>/terms</code> before launch.</p></section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

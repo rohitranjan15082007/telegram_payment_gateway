@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edit text and hex colours in this SVG. Canvas: 1080 x 1080 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <style>.ink{fill:#2b183e}.cream{fill:#fff5e8}.coral{fill:#ff7a67}.pink{fill:#ffc5bc}.small{font:700 25px Arial,sans-serif;letter-spacing:4px}.sale{font:900 224px Arial,sans-serif;letter-spacing:-15px}.big{font:800 72px Arial,sans-serif;letter-spacing:-3px}.body{font:500 29px Arial,sans-serif}</style>
+  <rect class="cream" width="1080" height="1080"/><circle class="pink" cx="-40" cy="103" r="264"/><circle class="coral" cx="998" cy="892" r="276"/><path class="ink" d="m691 83 33 73 80 9-60 54 17 79-70-39-71 39 18-79-60-54 80-9z"/>
+  <text class="small ink" x="83" y="129">SEASONAL EVENT</text><text class="sale coral" x="66" y="401">SALE</text><text class="big ink" x="77" y="500">UP TO 40% OFF</text>
+  <rect class="ink" x="77" y="557" width="386" height="82" rx="41"/><text class="body cream" x="123" y="610">USE CODE: HELLO40</text>
+  <text class="body ink" x="78" y="722">Add dates, exclusions, and</text><text class="body ink" x="78" y="762">a clear call to action here.</text><text class="small ink" x="78" y="967">YOUR BRAND NAME  /  @YOURHANDLE</text>
+</svg>

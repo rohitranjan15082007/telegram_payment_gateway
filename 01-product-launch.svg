@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edit text and hex colours in this SVG. Canvas: 1080 x 1080 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <style>.bg{fill:#17152e}.accent{fill:#b9ff70}.muted{fill:#a7a4be}.white{fill:#fff}.small{font:700 26px Arial,sans-serif;letter-spacing:5px}.title{font:800 112px Arial,sans-serif;letter-spacing:-5px}.body{font:400 31px Arial,sans-serif}</style>
+  <rect class="bg" width="1080" height="1080"/><circle fill="#29264a" cx="920" cy="160" r="280"/><circle class="accent" cx="840" cy="778" r="194"/><path fill="#7e6dff" d="M0 812C220 687 391 708 581 841S900 1012 1080 874v206H0z"/>
+  <text class="small accent" x="88" y="114">JUST LANDED</text><text class="title white" x="82" y="307">MEET THE</text><text class="title white" x="82" y="424">NEW DROP.</text>
+  <text class="body muted" x="88" y="502">A short line about your new product</text><text class="body muted" x="88" y="542">or service goes right here.</text>
+  <rect class="accent" x="88" y="647" width="300" height="76" rx="38"/><text fill="#17152e" x="126" y="696" style="font:700 27px Arial,sans-serif">SHOP THE DROP →</text>
+  <text class="small white" x="88" y="954">YOUR BRAND NAME</text><text class="body white" x="88" y="1003">@yourhandle</text>
+</svg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edit text and hex colours in this SVG. Canvas: 1080 x 1080 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <style>.orange{fill:#fa6537}.cream{fill:#fff6e8}.pink{fill:#ffb3a0}.ink{fill:#30223b}.small{font:700 23px Arial,sans-serif;letter-spacing:4px}.title{font:900 100px Arial,sans-serif;letter-spacing:-6px}.body{font:600 29px Arial,sans-serif}</style>
+  <rect class="orange" width="1080" height="1080"/><path class="cream" d="M0 600c157-178 320-213 518-105 190 103 383 86 562-66v651H0z"/><circle class="pink" cx="166" cy="171" r="117"/><path class="ink" d="m877 78 23 52 57 6-43 39 12 56-49-28-51 28 13-56-43-39 57-6z"/>
+  <text class="small cream" x="77" y="116">SAVE THE DATE</text><text class="title cream" x="70" y="350">JOIN US</text><text class="title cream" x="70" y="452">LIVE.</text>
+  <text class="body ink" x="76" y="678">EVENT NAME GOES HERE</text><text class="body ink" x="76" y="731">SATURDAY, 12 OCTOBER · 6 PM</text><rect class="ink" x="76" y="786" width="354" height="78" rx="39"/><text class="body cream" x="125" y="837">RSVP: YOUR LINK</text><text class="small ink" x="76" y="966">YOUR BRAND NAME  ·  CITY / ONLINE</text>
+</svg>

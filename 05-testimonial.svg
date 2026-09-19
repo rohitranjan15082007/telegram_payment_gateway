@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edit text and hex colours in this SVG. Canvas: 1080 x 1080 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <style>.plum{fill:#40204d}.lilac{fill:#efe4ff}.yellow{fill:#ffdc72}.small{font:700 23px Arial,sans-serif;letter-spacing:4px}.quote{font:700 55px Georgia,serif}.body{font:500 28px Arial,sans-serif}.name{font:800 30px Arial,sans-serif}</style>
+  <rect class="plum" width="1080" height="1080"/><path class="lilac" d="M0 0h1080v147c-238 55-388-95-627 26C290 256 132 242 0 202z"/><circle class="yellow" cx="902" cy="239" r="112"/>
+  <text class="small plum" x="76" y="95">KIND WORDS</text><text class="small lilac" x="94" y="329">CUSTOMER TESTIMONIAL</text><text class="quote lilac" x="92" y="437">“THIS PRODUCT MADE</text><text class="quote lilac" x="92" y="512">MY WORK SO MUCH</text><text class="quote lilac" x="92" y="587">EASIER.”</text>
+  <rect class="yellow" x="92" y="681" width="98" height="8"/><text class="name yellow" x="92" y="756">CUSTOMER NAME</text><text class="body lilac" x="92" y="798">ROLE OR SHORT DESCRIPTION</text><circle fill="#704479" cx="895" cy="811" r="100"/><text class="small yellow" x="92" y="973">YOUR BRAND NAME  ·  @YOURHANDLE</text>
+</svg>

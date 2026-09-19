@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edit text and hex colours in this SVG. Canvas: 1080 x 1080 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <style>.purple{fill:#513e91}.lav{fill:#eae3ff}.yellow{fill:#ffe26b}.white{fill:#fff}.small{font:700 23px Arial,sans-serif;letter-spacing:4px}.question{font:800 73px Arial,sans-serif;letter-spacing:-3px}.body{font:500 28px Arial,sans-serif}</style>
+  <rect class="lav" width="1080" height="1080"/><path class="purple" d="M0 0h1080v275c-113 67-208 51-298-4-170-104-326 68-500-39C171 165 71 183 0 218z"/><circle class="yellow" cx="885" cy="265" r="118"/>
+  <text class="small white" x="79" y="119">LET'S TALK</text><text class="question purple" x="80" y="443">WHAT WOULD</text><text class="question purple" x="80" y="532">YOU LOVE TO</text><text class="question purple" x="80" y="621">LEARN NEXT?</text>
+  <rect class="white" x="79" y="700" width="911" height="130" rx="22"/><text class="body purple" x="121" y="755">Leave a comment with your answer</text><text class="body purple" x="121" y="797">or send us a message.</text><text class="small purple" x="80" y="951">YOUR BRAND NAME  ·  @YOURHANDLE</text>
+</svg>

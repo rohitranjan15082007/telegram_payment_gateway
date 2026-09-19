@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edit text and hex colours in this SVG. Canvas: 1080 x 1080 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <style>.ink{fill:#263326}.sand{fill:#f7f0e2}.olive{fill:#b0c797}.orange{fill:#f29456}.small{font:700 22px Arial,sans-serif;letter-spacing:4px}.title{font:800 82px Arial,sans-serif;letter-spacing:-4px}.body{font:500 27px Arial,sans-serif}</style>
+  <rect class="sand" width="1080" height="1080"/><rect class="olive" x="588" y="0" width="492" height="1080"/><circle class="orange" cx="812" cy="285" r="182"/><circle fill="#e4d27f" cx="742" cy="752" r="270"/><rect class="ink" x="84" y="80" width="486" height="919" rx="22"/>
+  <text class="small olive" x="130" y="151">SERVICE SPOTLIGHT</text><text class="title sand" x="129" y="305">MAKE ROOM</text><text class="title sand" x="129" y="392">FOR WHAT</text><text class="title sand" x="129" y="479">MATTERS.</text><text class="body olive" x="129" y="580">Describe your offer and who</text><text class="body olive" x="129" y="620">it is designed to help.</text>
+  <rect class="orange" x="129" y="712" width="272" height="72" rx="36"/><text class="body ink" x="171" y="759">BOOK A CALL →</text><text class="small sand" x="129" y="932">YOUR BRAND NAME</text>
+</svg>
