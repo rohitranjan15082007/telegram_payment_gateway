@@ -6,9 +6,13 @@ import { OrderStore } from './orders.mjs';
 import { deliveryIsAvailable, sendDelivery, telegram } from './telegram.mjs';
 
 
+
+
 const siteRoot = resolve(process.cwd());
 const store = new OrderStore();
 const mimeTypes = { '.css': 'text/css; charset=utf-8', '.html': 'text/html; charset=utf-8', '.js': 'application/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8' };
+
+
 
 
 function sendJson(response, status, body) {
@@ -30,6 +34,8 @@ function getStartParameter(text) {
 function isExpectedOrder(order, from, payment) {
   return Boolean(order && String(order.user_id) === String(from.id) && order.currency === payment.currency && order.amount === payment.total_amount && order.status !== 'paid');
 }
+
+
 
 
 async function sendInvoice(message) {
@@ -100,10 +106,15 @@ function serveStatic(response, pathname) {
 }
 
 
+
+
 const server = createServer(async (request, response) => {
   try {
     const url = new URL(request.url, config.publicBaseUrl);
-    if (request.method === 'GET' && url.pathname === '/health') return sendJson(response, 200, { ok: true });
+    if (request.method === 'GET' && url.pathname === '/health') {
+        await store.ready;
+        return sendJson(response, 200, { ok: true });
+      }
     if (request.method === 'GET' && url.pathname === '/api/public-config') return sendJson(response, 200, { botUsername: config.botUsername, product: { key: config.product.key, title: config.product.title, description: config.product.description, priceStars: config.product.priceStars } });
     if (request.method === 'POST' && url.pathname === '/telegram/webhook') {
       if (request.headers['x-telegram-bot-api-secret-token'] !== config.webhookSecret) return sendJson(response, 401, { ok: false });
